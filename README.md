@@ -2,15 +2,15 @@
  
 This appendix contains three codebooks that were used for data manipulation and analysis. Each codebook was summarized and outlined in this document and the corresponding codebook.
 
-Note: ipynb is the file extension for Jupyter Notebooks. You can open ipynb files with Microsoft Visual Studio Code. You can download Microsoft Visual Studio Code here: https://code.visualstudio.com/
+*Note: ipynb is the file extension for Jupyter Notebooks. You can open ipynb files with Microsoft Visual Studio Code. You can download Microsoft Visual Studio Code here: https://code.visualstudio.com/*
 
-Codebook 1 - attention_score_calculation.ipynb 
+## Codebook 1 - attention_score_calculation.ipynb 
 
 This code codebook was used to calculate the attention score for each session
 Input: aggregated data with metadata of conversations from the system
 Output: dataset with attention score
 
-Codebook 2 – concurrent_outcome.ipynb
+## Codebook 2 – concurrent_outcome.ipynb
 
 This code codebook serves multiple purposes:
 - Join downstream outcomes from the post-session survey, premature departure table and attention score data
@@ -18,7 +18,7 @@ This code codebook serves multiple purposes:
 - Comparisons within groups of concurrent sessions
 - Explore optimal attention score on downstream outcomes
 
-Codebook 3 – regression_analysis.ipynb
+## Codebook 3 – regression_analysis.ipynb
 
 This code codebook serves multiple purposes:
 - Join counselors' role and login time and calculate their accumulative hours on duty when handling that particular session
